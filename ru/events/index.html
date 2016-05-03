@@ -17,16 +17,18 @@ locale: ru
             <dd>{{ event.shortinfo.address }}</dd>
         </dl>
         
-        Выступающие
-        <ol>
-            {% for speaker in event.speakers %}
-                <li>
-                    <span>{{ speaker.name.ru }}</span>
-                    <p><i>тема:</i> {{ speaker.topic.ru }}</p>
-                    <p><i>тезисы:</i> <p>{{ speaker.abstract.ru }}</p></p>
-                </li>
-            {% endfor %}
-        </ol>
-        <p>{{ event.footer.ru }}</p>
+        <p>
+            Выступающие
+            <ol>
+                {% for speaker in event.speakers %}
+                    <li>
+                        <span>{{ speaker.name.ru }}</span>
+                        <p><i>тема:</i> {{ speaker.topic.ru }}</p>
+                        <p><i>тезисы:</i> <p>{{ speaker.abstract.ru }}</p></p>
+                    </li>
+                {% endfor %}
+            </ol>
+            <p>{{ event.footer.ru }}</p>
+        </p>
     {% endfor %}
 </div>

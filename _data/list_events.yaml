@@ -20,3 +20,25 @@
   footer:
     en: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet leo eget dui malesuada semper. Cras sed dictum tellus, et malesuada dui.
     ru: В случае, если Вы по какой-то причине не сможете присутствовать на коллоквиуме, просьба сообщить об этом на почту Каленовой Ольге (olgakalyonova.ifmo@gmail.com)
+-
+  title:
+    en: Maecenas tincidunt blandit purus in molestie
+    ru: Aliquam non tincidunt urna, vitae porttitor mauris
+  shortinfo:
+    date: 10.05.2016
+    time: 12-30
+    address: ITMO 366
+  speakers:
+    -
+      name:
+        en: Bryant Craig
+        ru: Hubert Collins
+      topic:
+        en: Donec consectetur eget sem sed pellentesque
+        ru: Mauris pulvinar turpis vitae enim interdum auctor
+      abstract:
+        en: 'Integer iaculis imperdiet efficitur. Ut rhoncus bibendum velit, sed aliquet nibh sagittis ac. Etiam velit arcu, efficitur eget leo vitae, accumsan auctor tortor. Vivamus semper velit eget est venenatis interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna risus, elementum in magna nec, venenatis pharetra velit. Mauris vel diam ac sapien finibus efficitur aliquam nec elit.'
+        ru: 'Donec vel viverra nisi, ac iaculis nisl. Praesent ac felis turpis. In in velit vel nisl iaculis hendrerit. Praesent sem enim, ullamcorper non vestibulum at, aliquet sed quam. Suspendisse in semper leo. Aliquam lobortis enim a dolor lobortis pellentesque. Praesent felis justo, iaculis et neque vitae, vehicula fermentum justo. Suspendisse ornare rhoncus tristique. Aliquam risus ligula, interdum non sagittis non, tristique ut est. Suspendisse blandit magna quis elit lobortis luctus. Nunc rutrum condimentum nibh sed fermentum. Donec tellus lacus, ultrices eget ligula id, eleifend faucibus justo. Nulla feugiat ipsum vitae velit elementum sollicitudin. Pellentesque ac felis tincidunt, venenatis tellus id, ultricies nisi.'
+  footer:
+    en: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet leo eget dui malesuada semper. Cras sed dictum tellus, et malesuada dui.
+    ru: Integer vel interdum lectus. Quisque faucibus convallis velit et vehicula. Suspendisse mattis mi risus, eget tempus leo auctor lobortis. Nam pretium dapibus nibh sed vestibulum.
