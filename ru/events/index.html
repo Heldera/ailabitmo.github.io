@@ -6,11 +6,27 @@ locale: ru
 <h1 class="page-title">Мероприятия</h1>
 
 <div>
-    <ul class="events-list">
-        {% for events in site.data.list_events %}
-            <li>
-                {{ events.title.ru }}
-            </li>
-        {% endfor %}
-    </ul>
+    {% for event in site.data.list_events %}
+        <h3>{{ event.title.ru }}</h3>
+        <dl>
+            <dt>Дата:</dt>
+            <dd>{{ event.shortinfo.date }}</dd>
+            <dt>Время:</dt>
+            <dd>{{ event.shortinfo.time }}</dd>
+            <dt>Место:</dt>
+            <dd>{{ event.shortinfo.address }}</dd>
+        </dl>
+        
+        Выступающие
+        <ol>
+            {% for speaker in event.speakers %}
+                <li>
+                    <span>{{ speaker.name.ru }}</span>
+                    <p><i>тема:</i> {{ speaker.topic.ru }}</p>
+                    <p><i>тезисы:</i> <p>{{ speaker.abstract.ru }}</p></p>
+                </li>
+            {% endfor %}
+        </ol>
+        <p>{{ event.footer.ru }}</p>
+    {% endfor %}
 </div>

@@ -14,7 +14,7 @@
       topic:
         en: Some topic
         ru: тема
-      abstracts:
+      abstract:
         en: 'some html text <ul><li>1 lorem</li><li>2 lorem lorem</li></ul>'
         ru: 'некий html текст <ul><li>1 lorem</li><li>2 lorem lorem</li></ul>'
   footer:
