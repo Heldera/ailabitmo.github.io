@@ -1,6 +1,6 @@
 en:
     - ['/en/', 'Home']
-    - ['/en/events', 'Events']
+    - ['/en/events/', 'Events']
     - ['/en/team/', 'Team']
     - ['/en/projects/', 'Projects']
     - ['/en/partners/', 'Partners']
@@ -8,7 +8,7 @@ en:
     - ['/en/about/', 'About']
 ru:
     - ['/ru/', 'Главная']
-    - ['/ru/events', 'Мероприятия']
+    - ['/ru/events/', 'Мероприятия']
     - ['/ru/team/', 'Команда']
     - ['/ru/projects/', 'Проекты']
     - ['/ru/partners/', 'Партнеры']
