@@ -9,11 +9,11 @@ locale: ru
     {% for event in site.data.list_events %}
         <h3>{{ event.title.ru }}</h3>
         <dl>
-            <dt>Дата:</dt>
-            <dd>{{ event.shortinfo.date }}</dd>
-            <dt>Время:</dt>
-            <dd>{{ event.shortinfo.time }}</dd>
-            <dt>Место:</dt>
+            <dt class="inline">Дата:</dt>
+            <dd class="inline">{{ event.shortinfo.date }}</dd>
+            <dt class="inline">Время:</dt>
+            <dd class="inline">{{ event.shortinfo.time }}</dd>
+            <dt class="inline">Место:</dt>
             <dd>{{ event.shortinfo.address }}</dd>
         </dl>
         

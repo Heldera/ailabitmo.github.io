@@ -9,11 +9,11 @@ locale: en
     {% for event in site.data.list_events %}
         <h3>{{ event.title.en }}</h3>
         <dl>
-            <dt>Date:</dt>
-            <dd>{{ event.shortinfo.date }}</dd>
-            <dt>Time:</dt>
-            <dd>{{ event.shortinfo.time }}</dd>
-            <dt>Place:</dt>
+            <dt class="inline">Date:</dt>
+            <dd class="inline">{{ event.shortinfo.date }}</dd>
+            <dt class="inline">Time:</dt>
+            <dd class="inline">{{ event.shortinfo.time }}</dd>
+            <dt class="inline">Place:</dt>
             <dd>{{ event.shortinfo.address }}</dd>
         </dl>
         
